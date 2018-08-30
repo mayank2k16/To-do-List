@@ -1,0 +1,38 @@
+header{
+    padding: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: start;
+    margin-top: 10%;
+    width: 100%;
+    height: 5%;
+}
+.activity-input{
+    border: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 50%;
+}
+.add-button{
+    width: 10%;
+    margin-left: -20px;
+}
+.todos{
+    display: flex;
+    justify-content: flex-start;
+}
+li:nth-child(odd) {
+    background:aquamarine;
+}
+li:nth-child(even) {
+    background:rgb(57, 138, 111);
+}
+#list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 53%;
+}
